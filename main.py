@@ -6,9 +6,13 @@ from pybricks.tools import wait, StopWatch, DataLog
 from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
 import Feladatok
+import kulsoA2
+import belsoA2
+import kozepsoA2
 
-oraiMunka=Feladatok.Feladatok()
+oraiMunka=kozepsoA2.Palya()
 
+oraiMunka.palya2()
 oraiMunka.koszon()
 
 
@@ -31,4 +35,4 @@ oraiMunka.koszon()
 
 # Write your program here.
 #ev3.speaker.beep()
-oraiMunka.csipog()
+#oraiMunka.csipog()
